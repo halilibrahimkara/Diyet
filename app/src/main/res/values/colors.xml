@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="Bg">#c48f01</color>
+    <color name="Başlık">#9C27B0</color>
+    <color name="Kilolu">#F05977</color>
+    <color name="İdeal">#50FF59</color>
+    <color name="ObezveZayıf">#AF002D</color>
+
+
+    <color name="Resim">#ffffff</color>
+</resources>

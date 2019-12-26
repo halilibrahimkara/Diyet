@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KActivity"
+    android:orientation="vertical"
+    android:background="@color/Bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Kilolu Kişiler İçin Beslenme Listesi"
+        android:textColor="@color/Başlık"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/k1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        app:srcCompat="@drawable/sut" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="250dp"
+        app:srcCompat="@drawable/yulaf" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="180dp"
+        app:srcCompat="@drawable/kuruyemis" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="200dp"
+        app:srcCompat="@drawable/somon" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="250dp"
+        app:srcCompat="@drawable/yogurt" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="185dp"
+        app:srcCompat="@drawable/bugday" />
+
+</RelativeLayout>
